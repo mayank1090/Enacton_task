@@ -1,0 +1,34 @@
+.swiper-button-prev, .swiper-button-next {
+   padding: 0;
+    color: white;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: white;
+    opacity: 1; /* To make the color fully opaque */
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next {
+    right: -10px; /* Adjust this value to increase/decrease the space */
+    padding-right: 10px;
+  }
+  
+  .swiper-button-prev {
+    left: -10px; /* Adjust this value to increase/decrease the space */
+  }
+
+.swiper-button-next {
+  background-image: url('../../../public/assets/right.png');
+}
+
+.swiper-button-prev {
+  background-image: url('../../../public/assets/left.png');
+}
