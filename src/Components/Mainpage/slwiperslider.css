@@ -3,11 +3,6 @@
     color: white;
   }
 
-  .swiper-pagination-bullet-active {
-    background-color: white;
-    opacity: 1; /* To make the color fully opaque */
-  }
-
   .swiper-button-next,
 .swiper-button-prev {
   background-size: cover;
@@ -17,12 +12,11 @@
 }
 
 .swiper-button-next {
-    right: -10px; /* Adjust this value to increase/decrease the space */
-    padding-right: 10px;
+    right: -10px; 
   }
   
   .swiper-button-prev {
-    left: -10px; /* Adjust this value to increase/decrease the space */
+    left: -10px; 
   }
 
 .swiper-button-next {
@@ -32,3 +26,13 @@
 .swiper-button-prev {
   background-image: url('../../../public/assets/left.png');
 }
+
+.swiper-pagination-bullet {
+    background-color: rgb(126, 124, 124);
+    opacity: 1; /* To make the color fully opaque */
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: white;
+    opacity: 1; 
+  }
